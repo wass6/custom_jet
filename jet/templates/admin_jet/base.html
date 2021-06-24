@@ -42,7 +42,7 @@
 <body class="{% if request.COOKIES.sidebar_pinned != 'false' %}menu-pinned {% endif %}{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}"
   data-admin-utc-offset="{% now "Z" %}">
 
-{% if is_prod %}<p class="github-fork-ribbon left-top" data-ribbon="PROD ENV">PROD ENV</p>{% endif %}
+{% if is_prod %}<p class="github-fork-ribbon right-top" data-ribbon="PROD ENV">PROD ENV</p>{% endif %}
 <!-- Container -->
 <div id="container">
 
